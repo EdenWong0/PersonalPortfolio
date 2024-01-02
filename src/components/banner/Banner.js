@@ -6,8 +6,7 @@ import RightBanner from './RightBanner';
 const Banner = () => {
 
   return (
-    <section id="home" className="w-full pt-10 pb-20 h-[800px] flex border-b-[1px] border-b-black font-titleFont">
-
+    <section id="home" className="w-full pt-10 pb-20 h-[800px] flex border-b-[1px] border-b-gray-600 font-titleFont">
         <LeftBanner />
         <RightBanner />
     </section>
