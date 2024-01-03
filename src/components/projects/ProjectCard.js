@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub,  } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { TbHandClick } from "react-icons/tb";
 
 const ProjectCard = ({ title, des, src, tech, githubLink, webLink }) => {

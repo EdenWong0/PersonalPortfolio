@@ -16,4 +16,13 @@
     .bgOpacity{
         @apply bg-white bg-opacity-40;
     }
+    .contactInput{
+        @apply w-full h-12 rounded-lg border-b-[1px] border-b-designColor bg-[#12303b] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
+    }
+    .contactMessageText{
+        @apply w-full rounded-lg border-b-[1px] border-b-designColor bg-[#12303b] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+    }
+    .footerIcon{
+        @apply w-16 h-16 text-white text-3xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor;
+    }
 }

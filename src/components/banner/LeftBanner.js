@@ -7,14 +7,8 @@ import Resume from '../../assist/myresume.pdf'
 
 const LeftBanner = () => {
 
-  const handleDownloadResume = () => {
-    const resumeUrl = '../../assist/myresume.pdf';
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = {Resume};
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const openResume = () => {
+    window.open(Resume, '_blank');
   };
 
   const [text] = useTypewriter({
@@ -40,7 +34,7 @@ const LeftBanner = () => {
                 <p>                
                   <div className="resumeButton">
                   <BsFillPersonVcardFill/>
-                  <button onClick={handleDownloadResume}>My Resume</button>
+                  <button onClick={openResume}>My Resume</button>
                   </div>
                 </p>
             </div>

@@ -11,7 +11,7 @@ export const navBarLinksData=[
     },
     {
         _id: 3,
-        title: "Features",
+        title: "Services",
         link: "features",
     },
     {

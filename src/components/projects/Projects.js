@@ -39,7 +39,7 @@ const Projects = () => {
             />
             <ProjectCard 
                 title="Weather Appliaction"
-                des="Using xxxxxxxxxxxxxxxxxxxxxx"
+                des="Retrieving information from OpenWeather APIs, including the ability to search for weather conditions in various cities."
                 tech="React.js | TailwindCSS | OpenWeatherMap API"
                 src={projectFour}
                 githubLink="https://github.com/EdenWong0/WeatherApp"
