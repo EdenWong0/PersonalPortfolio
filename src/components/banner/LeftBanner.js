@@ -28,7 +28,7 @@ const LeftBanner = () => {
   return (
     <section id="home" className="w-full py-40 h-[800px] flex font-titleFont">
         <div className="w-1/2 flex flex-col gap-20">
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 ">
                 <h1 className="text-5xl font-bold text-white">Hi there👋🏻, I'm <span className="text-designColor capitalizes">Eden Wong</span></h1>
                 <h2 className="text-4xl font-bold text-white">a <span>{text}</span>
                 <Cursor
@@ -50,18 +50,18 @@ const LeftBanner = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-3">
-                <span className="bannerIcon">
+                  <a href="https://www.facebook.com/pakhin.wong.9/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
                   <FaFacebookF />
-                </span>
-                <span className="bannerIcon">
-                  <FaInstagram />
-                </span>
-                <span className="bannerIcon">
-                  <FaLinkedinIn />
-                </span>
-                <span className="bannerIcon">
-                  <FaGithub />
-                </span>
+                  </a>
+                  <a href="https://www.instagram.com/edenwph/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                    <FaInstagram />
+                  </a>
+                  <a href="https://www.linkedin.com/in/eden-wong-12a90724b/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                    <FaLinkedinIn />
+                  </a>
+                  <a href="https://github.com/EdenWong0" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                    <FaGithub />
+                  </a>
                 </div>
               </div>
               <div>
