@@ -18,7 +18,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-14'>
             <ProjectCard 
                 title="Callie Wong Music Studio"
-                des="Crafted React and Tailwind, boosting the teacher network."
+                des="Crafted React.js, Next.js, and Tailwind CSS, assisting the teacher in enhancing their network."
                 tech="React.js | Next.js | TailwindCSS | Shadcn UI"
                 src={projectOne}
                 githubLink="https://github.com/EdenWong0/React-Ms-Callie-Academy"
@@ -29,10 +29,11 @@ const Projects = () => {
                 tech="React.js | TailwindCSS"
                 src={projectTwo}
                 githubLink="https://github.com/EdenWong0/React-HKCAHomes"
+                webLink="https://react-hkca-homes.vercel.app/"
             />
             <ProjectCard 
                 title="Spider Web App"
-                des="Associated with Centennial College, Using Angular.js, TypeScript, Node. js-based to create a basic platform for client."
+                des="Engaged in a collaborative project with five team members at Centennial College, where we leveraged Angular.js, TypeScript, and Node.js to develop a foundational platform for our client."
                 tech="Angular | TypeScript"
                 src={projectThree}
                 webLink="https://spiderwebdev.netlify.app/"
@@ -43,10 +44,11 @@ const Projects = () => {
                 tech="React.js | TailwindCSS | OpenWeatherMap API"
                 src={projectFour}
                 githubLink="https://github.com/EdenWong0/WeatherApp"
+                webLink="https://weather-app-sigma-sooty-45.vercel.app/"
             />
             <ProjectCard 
                 title="SFN Online Service / Workbench"
-                des="Enhances efficiency as well as elevating both user and operator experiences."
+                des="Achieved a winning portfolio through collaboration with five team members, enhancing efficiency, and elevating both user and operator experiences."
                 src={projectFive}
                 tech="MERN Stack"
                 webLink="https://sfn-community.onrender.com/"
