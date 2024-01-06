@@ -20,7 +20,7 @@ const Resume = () => {
             />
         </div>
         <div>
-            <ul className="w-full grid grid-cols-3">
+            <ul className="w-full grid grid-cols-1 md:grid-cols2 xl:grid-cols-3">
                 <li onClick={()=>setEducationData(true) & setSkillData(false) & setAwardData(false)} className={`${educationData ? "border-designColor rounded-lg":"border-transparent" } resumeLi `}>Education & Experiences</li>
                 <li onClick={()=>setEducationData(false) & setSkillData(true) & setAwardData(false)} className={`${skillData ? "border-designColor rounded-lg":"border-transparent" } resumeLi `}>Skills</li>
                 <li onClick={()=>setEducationData(false) & setSkillData(false) & setAwardData(true)} className={`${awardData ? "border-designColor rounded-lg":"border-transparent" } resumeLi `}>Awards</li>

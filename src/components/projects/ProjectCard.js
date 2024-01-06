@@ -4,7 +4,7 @@ import { TbHandClick } from "react-icons/tb";
 
 const ProjectCard = ({ title, des, src, tech, githubLink, webLink }) => {
   return (
-    <div className='w-full px-12 h-auto py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#404040] group hover:bg-gradient-to-b hover:from-[#12303b] hover:to-[#0c2027] transition-colors duration-1000'>
+    <div className='w-full p-4 rxl:px-12 xl:py-10 h-auto rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#404040] group hover:bg-gradient-to-b hover:from-[#12303b] hover:to-[#0c2027] transition-colors duration-1000'>
         <div className='w-full h-[80%] overflow-hidden rounded-lg'>
             <img className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"src={src} alt="src"/>
         </div>

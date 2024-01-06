@@ -2,14 +2,14 @@ import React from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
-import { edenImage } from '../../assist';
+import { meTwo } from '../../assist/index';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 
 const ContactLeft = () => {
   return (
-    <div className="w-[35%] h-full bg-gradient-to-r from-[#595959] to-[#404040] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
-        <img className="w-full h-66 object-cover rounded-lg"
-            src={edenImage}
+    <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#595959] to-[#404040] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+        <img className="w-full h-45 object-cover rounded-lg"
+            src={meTwo}
             alt="edenImage"
         />
 

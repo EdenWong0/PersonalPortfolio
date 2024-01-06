@@ -1,8 +1,9 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaReact, FaAngular, FaCss3, FaDatabase, FaFigma } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiJavascript, SiNextdotjs, SiAdobephotoshop } from "react-icons/si";
 import { BsFillPersonVcardFill } from "react-icons/bs";
+import { TbSql } from "react-icons/tb";
 import Resume from '../../assist/myresume.pdf'
 
 const LeftBanner = () => {
@@ -12,8 +13,8 @@ const LeftBanner = () => {
   };
 
   const [text] = useTypewriter({
-      words: ["Front End Developer.", "Database Administrator.","Web Designer."],
-      Loop: true,
+      words: ["Front End Developer.","Web Designer."],
+      loop: true,
       typeSpeed: 50,
       deleteSpeed: 30,
       delaySpeed: 1000,
@@ -21,14 +22,14 @@ const LeftBanner = () => {
 
   return (
     <section id="home" className="w-full py-40 h-[800px] flex font-titleFont">
-        <div className="w-1/2 flex flex-col gap-20">
+        <div className="w-full lgl:w-1/2 flex flex-col gap-20">
             <div className="flex flex-col gap-5 ">
-                <h1 className="text-5xl font-bold text-white">Hi there👋🏻, I'm <span className="text-designColor capitalizes">Eden Wong</span></h1>
-                <h2 className="text-4xl font-bold text-white">a <span>{text}</span>
+                <h1 className="text-3xl font-bold text-white">Hi there, I'm <span className="text-designColor capitalizes">Eden Wong</span></h1>
+                <h2 className="text-2xl font-bold text-white">a <span>{text}</span>
                 <Cursor
                   cursorBlinking="false"
                   cursorStyle="|"
-                  cursorColor="#7FFFD4"
+                  cursorColor="#ffffff"
                 />
                 </h2>
                 <p>                
@@ -38,7 +39,7 @@ const LeftBanner = () => {
                   </div>
                 </p>
             </div>
-            <div className="flex justify-between">
+            <div className="flex flex-col xl:flex-row gap-6 lgl:gap0 justify-between">
               <div>
                 <h2 className="text-base uppercase font-titleFont mb-4 ml-12">
                   Find me in
@@ -64,7 +65,10 @@ const LeftBanner = () => {
                 </h2>
                 <div className="flex gap-3 ml-12">
                 <span className="bannerIcon">
-                  <FaCss3 />
+                  <FaReact />
+                </span>
+                <span className="bannerIcon">
+                  <SiNextdotjs />
                 </span>
                 <span className="bannerIcon">
                   <SiJavascript />
@@ -73,16 +77,10 @@ const LeftBanner = () => {
                   <SiTailwindcss />
                 </span>
                 <span className="bannerIcon">
-                  <FaReact />
+                  <TbSql />
                 </span>
                 <span className="bannerIcon">
-                  <SiNextdotjs />
-                </span>
-                <span className="bannerIcon">
-                  <FaFigma />
-                </span>
-                <span className="bannerIcon">
-                  <FaDatabase />
+                  <SiAdobephotoshop />
                 </span>
                 </div>
               </div>

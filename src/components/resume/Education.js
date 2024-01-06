@@ -4,12 +4,12 @@ import ResumeCard from './ResumeCard';
 
 const Education = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:1}}} className="w-full flex gap-20">
+    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:1}}} className="w-full flex gap-20 lgl:flex-row lgl:gap-10">
             <div>
-                <div className='py-12 font-titleFont'>
-                    <h4 className="text-4xl font-bold">Education</h4>
+                <div className='py-6 lgl:py-12 font-titleFont flex flex-col gap-4'>
+                    <h4 className="text:3xl md:text-4xl font-bold">Education</h4>
                 </div>
-                <div className="mt-14 w-full h-[600px] border-l-[6px] border-l-white border-opacity-20 flex flex-col gap-10">
+                <div className="mt-6 lgl:mt-14 w-full h-[500px] border-l-[6px] border-l-white border-opacity-20 flex flex-col gap-10">
                     <ResumeCard 
                         title="Diploma in Software Engineering Technician"
                         subTitle="Centennial College (Sep 2022 - Dec 2023)"
@@ -23,10 +23,15 @@ const Education = () => {
                 </div>
             </div>
             <div>
-            <div className='py-12 font-titleFont'>
+            <div className='py-6 lgl:py-12 font-titleFont'>
                     <h4 className="text-4xl font-bold">Experience</h4>
                 </div>
-                <div className="mt-14 w-full h-[600px] border-l-[6px] border-l-white border-opacity-20 flex flex-col gap-10">
+                <div className="mt-6 lgl:mt-14 w-full h-[500px] border-l-[6px] border-l-white border-opacity-20 flex flex-col gap-10">
+                    <ResumeCard 
+                        title="Freelance Front End Developer"
+                        subTitle="Self Employed (May 2023 - Present)"
+                        gpaOrlocation="Canada"          
+                    />
                     <ResumeCard 
                         title="Guest Service Representative"
                         subTitle="The SoHo Hotel and Residences (Oct 2022 - Present)"
@@ -37,11 +42,13 @@ const Education = () => {
                         subTitle="WM Hotel (Dec 2020 - Dec 2021)"
                         gpaOrlocation="Hong Kong"          
                     />
+                    {/*
                     <ResumeCard 
                         title="Junior Front End Developer"
                         subTitle="ThinkCol (Nov 2019 - Oct 2020)"
                         gpaOrlocation="Hong Kong"          
                     />
+                    */}
                 </div>
             </div>
         </motion.div>
