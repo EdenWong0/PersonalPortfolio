@@ -4,6 +4,7 @@ import projectTwo from './images/project/projectTwo.png';
 import projectThree from './images/project/projectThree.png';
 import projectFour from './images/project/projectFour.png';
 import projectFive from './images/project/projectFive.png';
+import projectSix from './images/project/projectSix.png';
 import AwardOne from './images/wimtach.png';
 import meOne from './images/me1.JPG'
 import meTwo from './images/me2.JPG'
@@ -18,6 +19,7 @@ export{
     projectThree,
     projectFour,
     projectFive,
+    projectSix,
     AwardOne,
     meOne,
     meTwo,

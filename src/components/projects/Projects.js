@@ -5,7 +5,9 @@ import { projectOne,
     projectTwo,
     projectThree,
     projectFour,
-    projectFive } from '../../assist/index'
+    projectFive,
+    projectSix,
+    } from '../../assist/index'
 
 const Projects = () => {
   return (
@@ -53,14 +55,14 @@ const Projects = () => {
                 tech="MERN Stack"
                 webLink="https://sfn-community.onrender.com/"
             />
-            {/* will update shortly
             <ProjectCard 
-                title="Car Rental Web Application"
-                des="Crafted React, Next JS 14, TypeScript, Tailwind CSS."
-                src={projectOne}
-                tech="React.js | Next.js | TailwindCSS | TypeScript"
+                title="TheNorthCarHub"
+                des="A dynamic web application built with React.js and Next.js, featuring a modern user interface and powered by TailwindCSS for styling. Explore a seamless browsing experience for car enthusiasts."
+                src={projectSix}
+                tech="React.js | Next.js | TailwindCSS"
+                githubLink="https://github.com/EdenWong0/next-carrental"
+                webLink="https://thenorthcarhub.vercel.app/"                     
             />
-            */}
         </div>
     </section>
   )
