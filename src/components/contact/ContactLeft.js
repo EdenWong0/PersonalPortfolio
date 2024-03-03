@@ -15,9 +15,9 @@ const ContactLeft = () => {
 
         <div className="flex flex-col gap-4">
             <h3 className="text-3xl fontbold text-lightText">Eden Wong</h3>
-            <p className="tex-lg font-normal text-lightText">FrontEnd Developer</p>
+            <p className="tex-lg font-normal text-lightText">Front-end Developer</p>
             <p className="text-base text-lightText tracking-wide">
-                A passionate and results-driven FrontEnd developer dedicated to crafting exceptional, high-quality websites. I bring a distinctive mix of creativity and technical know-how to every project I take on
+                A passionate and results-driven Front-end developer dedicated to crafting exceptional, high-quality websites. I bring a distinctive mix of creativity and technical know-how to every project I take on
             </p>
             <p className="text-base text-white flex items-center gap-2">
                 <FaPhoneAlt />
@@ -29,7 +29,7 @@ const ContactLeft = () => {
             </p>
             <p className="text-base text-white flex items-center gap-2">
                 <FaLocationDot />
-                Current in: <span className="text-lightText">North York, Toronto</span>
+                <span className="text-lightText">Toronto, Ontario, Canada</span>
             </p>
         </div>
         <div>

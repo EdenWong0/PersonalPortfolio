@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
         <div className="w-full py-5 gap-6 flex items-center justify-center text-lg">
-        © 2023 Copyright Eden Wong
+        © 2024 Copyright Eden Wong
         </div>
         <div className="w-full py-5 flex items-center justify-center">
             <div className="flex gap-3">
