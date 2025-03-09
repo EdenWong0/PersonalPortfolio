@@ -3,13 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      screens:{
+      screens: {
         xs: "320px",
         sm: "375px",
         sml: "500px",
         md: "667px",
         mdl: "768px",
-        lg: "960px",
+        lg: "991px",
         lgl: "1024px",
         xl: "1280px",
       },
@@ -24,8 +24,8 @@ module.exports = {
         designColor: "#ccccff",
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e"
-      }
+        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+      },
     },
   },
   plugins: [],
